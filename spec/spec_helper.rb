@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 require 'chefspec'
 require 'chefspec/berkshelf'
-require 'allure-ruby-adaptor-api'
+require 'allure-rspec'
 
-AllureRubyAdaptorApi.configure do |c|
-    c.output_dir = "/codefresh/volume/allure-results"
+AllureRSpec.configure do |c|
+    c.output_dir = "/codefresh/volume/"
 end

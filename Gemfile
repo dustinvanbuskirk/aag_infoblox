@@ -1,2 +1,2 @@
 source 'https://rubygems.org'
-gem 'allure-ruby-adaptor-api'
+gem 'allure-rspec'
