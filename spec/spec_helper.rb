@@ -4,5 +4,5 @@ require 'chefspec/berkshelf'
 require 'allure-rspec'
 
 AllureRSpec.configure do |c|
-    c.output_dir = "/codefresh/volume/"
+    c.output_dir = "/codefresh/volume/allure-results"
 end
