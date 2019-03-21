@@ -19,7 +19,6 @@ platforms:
     pid_one_command: /usr/lib/systemd/systemd
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro # required by systemd
-      - /var/lib/docker:/var/lib/docker
 
 suites:
   - name: default
